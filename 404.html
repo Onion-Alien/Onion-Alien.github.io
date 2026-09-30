@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Page not found</title>
+<script>
+  // Onion Board's site moved from /onionboard/ to /onion-board/: keep old links working
+  var p = location.pathname;
+  if (/^\/onionboard(\/|$)/i.test(p)) {
+    location.replace(p.replace(/^\/onionboard/i, "/onion-board") + location.search + location.hash);
+  }
+</script>
+<style>
+  body { font-family: "Segoe UI", system-ui, sans-serif; background:#0f1016; color:#e8e6f0;
+         display:flex; min-height:90vh; align-items:center; justify-content:center; }
+  a { color:#a48bff; }
+</style>
+</head>
+<body>
+<p>Nothing here. Try <a href="/onion-board/">Onion Board</a>.</p>
+</body>
+</html>
