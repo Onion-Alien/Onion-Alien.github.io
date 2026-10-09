@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://onion-alien.github.io/onion-board/sitemap.xml
