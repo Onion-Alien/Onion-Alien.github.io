@@ -1,5 +1,7 @@
 # onion-alien.github.io
 
-Keeps old links working: Onion Board's website moved from `/onionboard/` to
-[`/onion-board/`](https://onion-alien.github.io/onion-board/). Everything under the old
-address is sent to the new one.
+Keeps old links working: the Onion Alien websites moved to
+[onionalien.com](https://onionalien.com/) (Onion Board at
+[/onionboard/](https://onionalien.com/onionboard/), Onion Watch at
+[/onionwatch/](https://onionalien.com/onionwatch/)). Every page under this old address
+sends you to the same page there.

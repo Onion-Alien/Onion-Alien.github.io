@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://onion-alien.github.io/onion-board/sitemap.xml
+Sitemap: https://onionalien.com/onionboard/sitemap.xml

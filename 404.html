@@ -2,13 +2,15 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Page not found</title>
+<title>Moved to onionalien.com</title>
+<meta name="robots" content="noindex">
 <script>
-  // Onion Board's site moved from /onionboard/ to /onion-board/: keep old links working
+  // Everything moved to onionalien.com: the old /onionboard/ pages go to the same page
+  // under /onionboard/ there, anything else to the home page.
   var p = location.pathname;
-  if (/^\/onionboard(\/|$)/i.test(p)) {
-    location.replace(p.replace(/^\/onionboard/i, "/onion-board") + location.search + location.hash);
-  }
+  location.replace(/^\/onion-?board(\/|$)/i.test(p)
+    ? "https://onionalien.com/onionboard/" + p.replace(/^\/onion-?board\/?/i, "") + location.search + location.hash
+    : "https://onionalien.com/");
 </script>
 <style>
   body { font-family: "Segoe UI", system-ui, sans-serif; background:#0f1016; color:#e8e6f0;
@@ -17,6 +19,6 @@
 </style>
 </head>
 <body>
-<p>Nothing here. Try <a href="/onion-board/">Onion Board</a>.</p>
+<p>Moved to <a href="https://onionalien.com/">onionalien.com</a>.</p>
 </body>
 </html>
